@@ -3,64 +3,10 @@
 # (usually in src/host/loader_services.cpp) before the game will start.
 # symbol | needed by
 ImageExists(char*) | peboxxi.so
-GetHelpFileName(char (&) [255], char const*, Locale::Languages, char const*) | peboxxi.so
-MeritthonDisplayRound(int, int, int, unsigned long) | peboxxi.so
 t_i_l() | peboxxi.so
 megastart(char const*, app_common::args_t*) | peboxxi.so
-Translator::SetCurrentLanguage(Locale::Languages) | peboxxi.so
-VideoClass::ShowPCX(char const*, short, short, unsigned char) | peboxxi.so
 SystemClass::WaitTouch(long) | peboxxi.so
-system_info::SystemInfo::GetInstance() | peboxxi.so
-system_info::SystemInfo::IsPlatformGameTime() | peboxxi.so
-system_info::Get_Motherboard_Type() | peboxxi.so
 MouseManager::SetDebounce(int) | peboxxi.so
 MouseManager::Pop() | peboxxi.so
 MouseManager::Push() | peboxxi.so
-xml_gameinfo::enum_GameIds_tag(xml_gameinfo::GameIds, bool) | libcontent.so
-ChainRestClass::GetPicFileName(xml_gameinfo::GameIds, int) | peboxxi.so
-xml_gamerandom::PICRAND_record::AdjustTime(int, long) | peboxxi.so
-xml_gamerandom::PICRAND_record::PICRAND_record(xml_gamerandom::PICRAND_record const&) | peboxxi.so
-xml_gamerandom::PICRAND_record::PICRAND_record() | peboxxi.so
-xml_gamerandom::PICRAND_record::~PICRAND_record() | peboxxi.so
-xml_gamerandom::PICRAND_record::operator=(xml_gamerandom::PICRAND_record const&) | peboxxi.so
-RandomizedArrayClass::SetBookMark(unsigned char) | peboxxi.so
-RandomizedArrayClass::GetNextValue(int) | peboxxi.so
-RandomizedArrayClass::GotoBookMark(unsigned char) | peboxxi.so
-RandomizedArrayClass::RandomizedArrayClass(xml_gamerandom::PICRAND_record*, int, unsigned char, unsigned short*) | peboxxi.so
-RandomizedArrayClass::~RandomizedArrayClass() | peboxxi.so
-Books::LogCategoryPlays(xml_gameinfo::GameIds, int, int) | peboxxi.so
-Books::Credits(xml_gameinfo::GameIds, enums::Span) | peboxxi.so
-Books::Instance() | peboxxi.so
 USBIO::FoundUSB() | peboxxi.so
-Bitmap::ConvertSmack(unsigned char) | peboxxi.so
-Bitmap::CopyFromScreen(int, int, bool) | peboxxi.so
-Bitmap::CreateSmackTextBox(char const*, FontBase*, signed char, unsigned short, unsigned short, bool) | peboxxi.so
-Bitmap::CreateColoredTextBoxTTFS(char const*, int, int, int, int, int, int, int, int, int, bool, char*, int) | peboxxi.so
-Bitmap::GreyBmp() | peboxxi.so
-Bitmap::LoadJPEG(char*, int, int, unsigned char) | peboxxi.so
-Bitmap::LoadSmack(char*, unsigned char, unsigned char) | peboxxi.so
-Settings::Init() | libcontent.so
-Settings::Init() | peboxxi.so
-Settings::Load() | libcontent.so
-Settings::Load() | peboxxi.so
-Settings::Cleanup() | libcontent.so
-Settings::Cleanup() | peboxxi.so
-Settings::Restore(abstract_xml_record const*) | libcontent.so
-Settings::Restore(abstract_xml_record const*) | peboxxi.so
-Settings::SaveNow() | libcontent.so
-Settings::Settings(char const*, unsigned int) | libcontent.so
-Settings::Settings(char const*, unsigned int) | peboxxi.so
-Settings::~Settings() | libcontent.so
-Settings::~Settings() | peboxxi.so
-xml_gamerandom::PICRAND_record::operator!=(xml_gamerandom::PICRAND_record const&) const | peboxxi.so
-Settings::Key(unsigned int, bool) const | libcontent.so
-Settings::Key(unsigned int, bool) const | peboxxi.so
-typeinfo for Settings | libcontent.so
-typeinfo for Settings | peboxxi.so
-typeinfo for xml_gamerandom::PICRAND_record | peboxxi.so
-al_findclose | peboxxi.so
-al_findfirst | peboxxi.so
-al_findnext | peboxxi.so
-clear_bitmap | peboxxi.so
-gfx_driver | peboxxi.so
-screen | peboxxi.so
